@@ -1,0 +1,70 @@
+12:34:30.668 [main] INFO  - ================Start Test Case Mr. Rakib AnsarExcel contact verification================
+12:34:30.675 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:34:40.787 [main] INFO  - Successfully Login
+12:34:40.787 [main] INFO  - Run clickcontact
+12:34:41.151 [main] INFO  - Run createDynamicxpath
+12:34:45.046 [main] INFO  - Verification for  UserName is Successful Mr. Rakib Ansar = Mr. Rakib Ansar
+12:34:45.653 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:34:45.654 [main] INFO  - ====End Test Case Verification ====
+12:34:49.630 [main] INFO  - ================Start Test Case Mr. Aayush goyalExcel contact verification================
+12:34:49.631 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:34:59.187 [main] INFO  - Successfully Login
+12:34:59.187 [main] INFO  - Run clickcontact
+12:34:59.329 [main] INFO  - Run createDynamicxpath
+12:35:01.027 [main] INFO  - Verification for  UserName is Successful Mr. Aayush goyal = Mr. Aayush goyal
+12:35:01.095 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:35:01.095 [main] INFO  - ====End Test Case Verification ====
+12:35:05.245 [main] INFO  - ================Start Test Case Mr. Piyus soniExcel contact verification================
+12:35:05.245 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:35:14.793 [main] INFO  - Successfully Login
+12:35:14.793 [main] INFO  - Run clickcontact
+12:35:14.989 [main] INFO  - Run createDynamicxpath
+12:35:17.965 [main] INFO  - Verification for  UserName is Successful Mr. Piyus soni = Mr. Piyus soni
+12:35:18.083 [main] ERROR - Verification Account Name  failed  Open company Preview =! Open add contact Preview
+12:35:21.666 [main] INFO  - ================Start Test Case Mr. Rohan BhatghavExcel contact verification================
+12:35:21.666 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:35:32.484 [main] INFO  - Successfully Login
+12:35:32.484 [main] INFO  - Run clickcontact
+12:35:32.669 [main] INFO  - Run createDynamicxpath
+12:35:34.853 [main] INFO  - Verification for  UserName is Successful Mr. Rohan Bhatghav = Mr. Rohan Bhatghav
+12:35:34.911 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:35:34.911 [main] INFO  - ====End Test Case Verification ====
+12:35:38.955 [main] INFO  - ================Start Test Case Mr. Habib sayedExcel contact verification================
+12:35:38.955 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:35:52.706 [main] INFO  - Successfully Login
+12:35:52.706 [main] INFO  - Run clickcontact
+12:35:53.128 [main] INFO  - Run createDynamicxpath
+12:35:55.426 [main] INFO  - Verification for  UserName is Successful Mr. Habib sayed = Mr. Habib sayed
+12:35:55.568 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:35:55.568 [main] INFO  - ====End Test Case Verification ====
+12:35:59.093 [main] INFO  - ================Start Test Case Mr. Soyab SisoExcel contact verification================
+12:35:59.094 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:36:15.061 [main] INFO  - Successfully Login
+12:36:15.061 [main] INFO  - Run clickcontact
+12:36:15.506 [main] INFO  - Run createDynamicxpath
+12:36:19.045 [main] INFO  - Verification for  UserName is Successful Mr. Soyab Siso = Mr. Soyab Siso
+12:36:19.159 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:36:19.159 [main] INFO  - ====End Test Case Verification ====
+12:36:23.110 [main] INFO  - ================Start Test Case Mr. Aasif SSSExcel contact verification================
+12:36:23.111 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:36:33.153 [main] INFO  - Successfully Login
+12:36:33.153 [main] INFO  - Run clickcontact
+12:36:34.172 [main] INFO  - Run createDynamicxpath
+12:36:37.141 [main] INFO  - Verification for  UserName is Successful Mr. Aasif SSS = Mr. Aasif SSS
+12:36:37.591 [main] ERROR - Verification Account Name  failed  Open Account  Preview =! Open company Preview
+12:36:41.117 [main] INFO  - ================Start Test Case Mr. Aarif AliExcel contact verification================
+12:36:41.117 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:36:50.049 [main] INFO  - Successfully Login
+12:36:50.049 [main] INFO  - Run clickcontact
+12:36:50.222 [main] INFO  - Run createDynamicxpath
+12:36:53.034 [main] INFO  - Verification for  UserName is Successful Mr. Aarif Ali = Mr. Aarif Ali
+12:36:53.107 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:36:53.107 [main] INFO  - ====End Test Case Verification ====
+12:36:56.910 [main] INFO  - ================Start Test Case Mr. Rahim dsdExcel contact verification================
+12:36:56.910 [main] INFO  - =========================================Start loginSalesforce===========================================
+12:37:05.641 [main] INFO  - Successfully Login
+12:37:05.641 [main] INFO  - Run clickcontact
+12:37:05.776 [main] INFO  - Run createDynamicxpath
+12:37:08.138 [main] INFO  - Verification for  UserName is Successful Mr. Rahim dsd = Mr. Rahim dsd
+12:37:08.449 [main] INFO  - Verification for Account Name is Successful Open company Preview = Open company Preview
+12:37:08.449 [main] INFO  - ====End Test Case Verification ====
