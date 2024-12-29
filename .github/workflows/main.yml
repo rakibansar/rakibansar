@@ -2,9 +2,9 @@ name: Selenium Tests with TestNG
 
 on:
   push:
-    branches: [ "submain" ] # Run tests on pushes to the 'main' branch
+    branches: [ "master" ] # Run tests on pushes to the 'main' branch
   pull_request:
-    branches: [ "submain" ] # Run tests on pull requests to the 'main' branch
+    branches: [ "master" ] # Run tests on pull requests to the 'main' branch
 
 jobs:
   build:
