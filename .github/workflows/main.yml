@@ -1,0 +1,53 @@
+name: Selenium Tests with TestNG
+
+on:
+  push:
+    branches: [ "submain" ] # Run tests on pushes to the 'main' branch
+  pull_request:
+    branches: [ "submain" ] # Run tests on pull requests to the 'main' branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '23' # Use Java 23
+        distribution: 'temurin' 
+    # or 'adopt' or 'liberica' or 'eclipse' depending on your preference
+    # ... other options as before ... 
+
+    - name: Build with Maven
+      run: |
+        mvn clean install 
+
+    - name: Run Tests with TestNG
+      run: |
+        mvn test 
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: target/surefire-reports 
+
+    - name: Generate JUnit Reports
+      run: |
+        mvn surefire-report:report
+
+    - name: Upload JUnit Reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: junit-reports
+        path: target/surefire-reports/
+
+    - name: Publish Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1
+      with:
+        github-token: ${{ secrets.TOKEN }}
+        path: target/surefire-reports
